@@ -1,10 +1,8 @@
 #import "@preview/unequivocal-ams:0.1.0": ams-article, theorem, proof
 
-#let abstract = [The textbook "Linear Algebra Done Wrong", by Sergei Treil of Brown University,
-  has been available for free online and is an excellent resource for beginners at
-  linear algebra. However, the lack of an official solution manual makes it hard
-  for self-learners to check their solutions. I'll be sharing some of my selected
-  solutions here as I work through the book.]
+#let abstract = [These are some of my solutions for the problem sets in Linear Algebra Done
+  Wrong. They are by no means comprehensive nor definitive, but I have generally
+  tried to make sure that they are at least mathematically correct.]
 
 #show: ams-article.with(
   title: [Selected Problems from Linear Algebra Done Wrong, Treil 2017], authors: (

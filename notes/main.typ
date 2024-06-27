@@ -151,6 +151,9 @@ transformation $T : V -> W$ is called linear if
 - #[A linear transformation $T : FF^n -> FF^m$ can also be represented as
     multiplication, but by matrix, not scalar]
 
+- #[For $T : FF^n -> FF^m$, it is sufficient to know how $T$ acts on the standard
+    basis of $FF^n$ to compute $T(x)$ for all vectors $x in FF^n$.]
+
 - #[If you want $A x = T(x)$, then you have the _column by coordinate_ rule
     $ A x = sum ^n _(k=1) x_k a_k = x_1 vec(a_(1,1), a_(2, 1), dots.v, a_(m, 1)) + x_2 vec(a_(1,2), a_(2, 2), dots.v, a_(m, 2)) + ... + x_n vec(a_(1,n), a_(2, n), dots.v, a_(m, n)) $
   ]
