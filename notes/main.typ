@@ -144,3 +144,13 @@ transformation $T : V -> W$ is called linear if
 + $T(u + v) = T(u) + T(v) " " forall u, v in V$
 + $T(alpha v) = alpha T(v) " " forall v in V "and" forall "scalars" alpha in FF$
 
+- #[Linear transformations $T: RR -> RR$ can be given by
+    $ T(x) = a x "where" a = T(1) $
+    Any linear transformation of $RR$ is just multiplication by a constant ]
+
+- #[A linear transformation $T : FF^n -> FF^m$ can also be represented as
+    multiplication, but by matrix, not scalar]
+
+- #[If you want $A x = T(x)$, then you have the _column by coordinate_ rule
+    $ A x = sum ^n _(k=1) x_k a_k = x_1 vec(a_(1,1), a_(2, 1), dots.v, a_(m, 1)) + x_2 vec(a_(1,2), a_(2, 2), dots.v, a_(m, 2)) + ... + x_n vec(a_(1,n), a_(2, n), dots.v, a_(m, n)) $
+  ]

@@ -200,9 +200,16 @@ We have
 $ beta_1 + beta_3 = alpha_1 \
 beta_2 + beta_1 = alpha_2 \
 beta_2 + beta_3 = alpha_3 $
-Implying that at least one of $beta_1, beta_2, beta_3$ is non-zero, and
-therefore $w_1, w_2, w_3$ cannot be linearly independent as there exists scalars $beta_1, beta_2, beta_3$ such
-that
+Eliminating variables, we obtain
+$
+  beta_3 - beta_2 &= alpha_1 - alpha _2 \
+  beta_3          &= (alpha_1 - alpha_2 + alpha_3)/2 \
+  beta_1          &= (alpha_1 + alpha_2 - alpha_3)/2 \
+  beta_2          &= (3 alpha_2 - alpha_1 - alpha_3)/2
+$
+Since $alpha_1, alpha_2, alpha_3$ are nonzero, at least one of $beta_1, beta_2, beta_3$ are
+also nonzero, therefore $w_1, w_2, w_3$ cannot be linearly independent as there
+exists scalars $beta_1, beta_2, beta_3$ such that
 
 $
   beta_1 w_1 + beta_2 w_2 + beta_3 w_3 = 0 \
